@@ -1,6 +1,5 @@
 -- populate users
-DELETE
-FROM USERS;
+-- DELETE FROM USERS;
 alter
 sequence USERS_ID_SEQ restart with 1;
 insert into USERS (EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, DISPLAY_NAME)
@@ -24,8 +23,7 @@ values ('user@gmail.com', '{noop}password', 'userFirstName', 'userLastName', 'us
 -- 0 DEV
 -- 1 ADMIN
 -- 2 MANAGER
-DELETE
-FROM USER_ROLE;
+DELETE FROM USER_ROLE;
 insert into USER_ROLE (USER_ID, ROLE)
 values (1, 0),
        (2, 0),
