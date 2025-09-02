@@ -52,7 +52,7 @@ or
   1. host - server ip-address
   2. port - 5432
   3. username - jira
-  4. password - CodeGymJira
+  4. password - JiraRush
   5. table - jira
   ```
 

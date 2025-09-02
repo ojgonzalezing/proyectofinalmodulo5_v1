@@ -1,7 +1,7 @@
-09-01 16:54:10.993 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 22624 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
-09-01 16:54:11.000 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
-09-01 16:54:11.001 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
-09-01 16:54:16.446 [    main] ERROR| com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException:594 HikariPool-1 - Exception during pool initialization.
+09-02 11:31:55.818 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 5280 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
+09-02 11:31:55.834 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-02 11:31:55.838 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-02 11:32:02.168 [    main] ERROR| com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException:594 HikariPool-1 - Exception during pool initialization.
 org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
 	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
@@ -38,8 +38,8 @@ org.postgresql.util.PSQLException: FATAL: password authentication failed for use
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
 	at com.codegym.jira.CodegymJiraApplication.main(CodegymJiraApplication.java:15)
-09-01 16:54:16.455 [    main] WARN | o.springframework.context.support.AbstractApplicationContext.refresh:592 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
-09-01 16:54:16.589 [    main] ERROR| org.springframework.boot.SpringApplication.reportFailure:820 Application run failed
+09-02 11:32:02.175 [    main] WARN | o.springframework.context.support.AbstractApplicationContext.refresh:592 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
+09-02 11:32:02.253 [    main] ERROR| org.springframework.boot.SpringApplication.reportFailure:820 Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
@@ -82,10 +82,10 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
 	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:280)
 	... 20 common frames omitted
-09-01 16:54:39.239 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 20220 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
-09-01 16:54:39.244 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
-09-01 16:54:39.246 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
-09-01 16:54:43.124 [    main] ERROR| com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException:594 HikariPool-1 - Exception during pool initialization.
+09-02 11:40:23.443 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 9936 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
+09-02 11:40:23.450 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-02 11:40:23.450 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-02 11:40:28.466 [    main] ERROR| com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException:594 HikariPool-1 - Exception during pool initialization.
 org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
 	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
@@ -122,8 +122,8 @@ org.postgresql.util.PSQLException: FATAL: password authentication failed for use
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
 	at com.codegym.jira.CodegymJiraApplication.main(CodegymJiraApplication.java:15)
-09-01 16:54:43.127 [    main] WARN | o.springframework.context.support.AbstractApplicationContext.refresh:592 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
-09-01 16:54:43.155 [    main] ERROR| org.springframework.boot.SpringApplication.reportFailure:820 Application run failed
+09-02 11:40:28.474 [    main] WARN | o.springframework.context.support.AbstractApplicationContext.refresh:592 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
+09-02 11:40:28.576 [    main] ERROR| org.springframework.boot.SpringApplication.reportFailure:820 Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
@@ -166,10 +166,10 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
 	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:280)
 	... 20 common frames omitted
-09-01 16:55:38.270 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 14456 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
-09-01 16:55:38.274 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
-09-01 16:55:38.275 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
-09-01 16:55:41.965 [    main] ERROR| com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException:594 HikariPool-1 - Exception during pool initialization.
+09-02 11:41:20.467 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 19356 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
+09-02 11:41:20.473 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-02 11:41:20.475 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-02 11:41:25.654 [    main] ERROR| com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException:594 HikariPool-1 - Exception during pool initialization.
 org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
 	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
@@ -206,8 +206,8 @@ org.postgresql.util.PSQLException: FATAL: password authentication failed for use
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
 	at com.codegym.jira.CodegymJiraApplication.main(CodegymJiraApplication.java:15)
-09-01 16:55:41.970 [    main] WARN | o.springframework.context.support.AbstractApplicationContext.refresh:592 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
-09-01 16:55:42.002 [    main] ERROR| org.springframework.boot.SpringApplication.reportFailure:820 Application run failed
+09-02 11:41:25.669 [    main] WARN | o.springframework.context.support.AbstractApplicationContext.refresh:592 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
+09-02 11:41:25.792 [    main] ERROR| org.springframework.boot.SpringApplication.reportFailure:820 Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
@@ -250,87 +250,15 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
 	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:280)
 	... 20 common frames omitted
-09-01 16:57:11.187 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 22612 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
-09-01 16:57:11.190 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
-09-01 16:57:11.191 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
-09-01 16:57:14.272 [    main] ERROR| com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException:594 HikariPool-1 - Exception during pool initialization.
-org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
-	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
-	at org.postgresql.Driver.makeConnection(Driver.java:434)
-	at org.postgresql.Driver.connect(Driver.java:291)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
-	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:280)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
-	at com.codegym.jira.CodegymJiraApplication.main(CodegymJiraApplication.java:15)
-09-01 16:57:14.275 [    main] WARN | o.springframework.context.support.AbstractApplicationContext.refresh:592 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
-09-01 16:57:14.305 [    main] ERROR| org.springframework.boot.SpringApplication.reportFailure:820 Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
-	at com.codegym.jira.CodegymJiraApplication.main(CodegymJiraApplication.java:15)
-Caused by: liquibase.exception.DatabaseException: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
-	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:285)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
-	... 18 common frames omitted
-Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "jira"
-	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
-	at org.postgresql.Driver.makeConnection(Driver.java:434)
-	at org.postgresql.Driver.connect(Driver.java:291)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
-	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:280)
-	... 20 common frames omitted
+09-02 11:43:10.844 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 19396 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
+09-02 11:43:10.850 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-02 11:43:10.852 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-02 11:43:16.941 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-02 11:43:22.401 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-02 11:43:22.927 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-02 11:43:23.110 [    main] INFO | com.codegym.jira.ref.ReferenceService.initialize:56 init loading
+09-02 11:43:23.361 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-02 11:43:24.888 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started CodegymJiraApplication in 15.255 seconds (process running for 16.512)
+09-02 11:43:40.732 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@384c1d20
+09-02 11:43:40.734 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@384c1d20
+09-02 11:43:48.982 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'

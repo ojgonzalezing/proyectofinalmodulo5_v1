@@ -11,7 +11,7 @@
 ```
   url: jdbc:postgresql://localhost:5432/jira
   username: jira
-  password: CodeGymJira
+  password: JiraRush
 ```
 
 - There are two tables, which do not have foreign keys
