@@ -13,10 +13,10 @@ services:
       POSTGRES_USER: ${DB_PROD_USER}
       POSTGRES_PASSWORD: ${DB_PROD_PASSWORD}
     ports:
-      - "${DB_PROD_PORT}:5432"
+      - "5432:5432"
     volumes:
-      - postgres_prod_data:/var/lib/postgresql/data/proddata
-      - ./pgdata:/var/lib/postgresql/proddata
+      - postgres_prod_data:/var/lib/postgresql/data
+      - ./docker/postgres-prod/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - db-network
     restart: unless-stopped
@@ -34,19 +34,17 @@ services:
       POSTGRES_USER: ${DB_TEST_USER}
       POSTGRES_PASSWORD: ${DB_TEST_PASSWORD}
     ports:
-      - "${DB_TEST_PORT}:5433"
+      - "5433:5432"
     volumes:
-      - postgres_test_data:/var/lib/postgresql/data/testdata
-      - ./pgdata-test:/var/lib/postgresql/testdata
+      - postgres_test_data:/var/lib/postgresql/data
+      - ./docker/postgres-test/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - db-network
     restart: unless-stopped
 
 volumes:
   postgres_prod_data:
-    driver: local
   postgres_test_data:
-    driver: local
 
 networks:
   db-network:
