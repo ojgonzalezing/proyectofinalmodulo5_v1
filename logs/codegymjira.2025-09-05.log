@@ -1,0 +1,10 @@
+09-05 16:59:56.280 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 24000 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
+09-05 16:59:56.296 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-05 16:59:56.299 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-05 17:00:02.904 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-05 17:00:08.721 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-05 17:00:09.784 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-05 17:00:09.995 [    main] INFO | com.codegym.jira.ref.ReferenceService.initialize:56 init loading
+09-05 17:00:10.335 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-05 17:00:12.093 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started CodegymJiraApplication in 17.213 seconds (process running for 18.782)
+09-05 17:00:32.012 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
