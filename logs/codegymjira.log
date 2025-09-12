@@ -256,3 +256,166 @@
 09-11 20:04:02.627 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
 09-11 20:04:02.630 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
 09-11 20:05:00.284 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
+09-11 20:24:03.911 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 7300 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
+09-11 20:24:03.917 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-11 20:24:03.918 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-11 20:24:09.902 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-11 20:24:14.973 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-11 20:24:15.430 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-11 20:24:15.578 [    main] INFO | com.codegym.jira.ref.ReferenceService.initialize:56 init loading
+09-11 20:24:15.822 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-11 20:24:16.738 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: github
+09-11 20:24:16.738 [    main] INFO | com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:157 Deshabilitando proveedor OAuth2: facebook
+09-11 20:24:16.739 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: google
+09-11 20:24:16.740 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: gitlab
+09-11 20:24:16.741 [    main] INFO | com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:161 Proveedores OAuth2 habilitados: [github, google, gitlab]
+09-11 20:24:17.194 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started CodegymJiraApplication in 14.562 seconds (process running for 15.963)
+09-11 20:24:27.155 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:27.156 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:38.959 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:38.961 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:39.305 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:39.307 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:51.333 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:51.563 [0-exec-2] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.lambda$userDetailsService$0:57 Authenticating 'admin@gmal.com'
+09-11 20:24:51.643 [0-exec-2] ERROR| o.s.s.w.a.AbstractAuthenticationProcessingFilter.doFilter:244 An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: User with email=admin@gmal.com not found
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:109)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:181)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: com.codegym.jira.common.error.NotFoundException: User with email=admin@gmal.com not found
+	at com.codegym.jira.login.internal.UserRepository.lambda$getExistedByEmail$0(UserRepository.java:27)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.codegym.jira.login.internal.UserRepository.getExistedByEmail(UserRepository.java:27)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:83)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy198.getExistedByEmail(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:211)
+	at jdk.proxy2/jdk.proxy2.$Proxy198.getExistedByEmail(Unknown Source)
+	at com.codegym.jira.common.internal.config.SecurityConfig.lambda$userDetailsService$0(SecurityConfig.java:58)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:94)
+	... 63 common frames omitted
+09-11 20:24:51.663 [0-exec-9] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:51.664 [0-exec-9] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:51.932 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:24:51.933 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:17.035 [0-exec-9] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:17.036 [0-exec-9] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.lambda$userDetailsService$0:57 Authenticating 'admin@gmail.com'
+09-11 20:25:17.343 [0-exec-7] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:25:23.016 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.017 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.017 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.022 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.022 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.022 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.022 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.026 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.026 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.026 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.026 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.026 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.026 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.031 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:25:23.372 [0-exec-3] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:25:23.548 [0-exec-1] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+09-11 20:25:25.922 [-exec-10] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 1 sprints
+09-11 20:25:28.266 [0-exec-2] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 1 tasks
+09-11 20:25:31.271 [0-exec-9] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 101
+09-11 20:25:34.011 [0-exec-6] INFO | com.codegym.jira.bugtracking.task.TaskUIController.showEditForm:48 show edit form for task 101
+09-11 20:25:34.046 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK
+09-11 20:25:34.047 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+09-11 20:25:34.049 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type PRIORITY
+09-11 20:25:34.410 [0-exec-5] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:25:34.430 [0-exec-1] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+09-11 20:25:57.647 [0-exec-6] DEBUG| c.codegym.jira.bugtracking.attachment.AttachmentController.upload:34 upload file UploadTestFile.txt to folder task
+09-11 20:25:58.050 [0-exec-7] INFO | c.codegym.jira.bugtracking.attachment.AttachmentController.getAllForObject:65 get all attachment by objectId = 101
+09-11 20:26:04.031 [0-exec-5] INFO | com.codegym.jira.bugtracking.task.TaskUIController.createOrUpdate:100 update TaskToExt:101[task-101],true with id=101
+09-11 20:26:04.078 [0-exec-5] INFO | com.codegym.jira.common.BaseHandler.updateFromTo:114 updateFromTo TaskToExt:101[task-101],true with id=101
+09-11 20:26:04.102 [0-exec-5] INFO | com.codegym.jira.common.BaseHandler.create:90 create Activity:null
+09-11 20:26:04.161 [0-exec-3] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 101
+09-11 20:26:04.477 [0-exec-2] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:26:20.506 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:26:20.507 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:26:23.587 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:26:23.590 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:26:23.799 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:26:23.800 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@54c5b576
+09-11 20:26:52.018 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'

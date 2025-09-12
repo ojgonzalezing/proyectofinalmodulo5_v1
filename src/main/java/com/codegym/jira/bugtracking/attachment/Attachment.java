@@ -38,7 +38,7 @@ public class Attachment extends NamedEntity {
 
     public Attachment(Long id, Path fileLink, Long objectId, ObjectType objectType, Long userId, String name) {
         super(id, name);
-        this.fileLink = fileLink;
+        this.fileLink = String.valueOf(fileLink);
         this.objectId = objectId;
         this.objectType = objectType;
         this.userId = userId;
