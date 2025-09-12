@@ -14,6 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.nio.file.Path;
 import java.util.List;
 
 import static com.codegym.jira.common.BaseHandler.createdResponse;
@@ -31,7 +32,7 @@ public class AttachmentController {
     public ResponseEntity<Attachment> upload(@RequestPart MultipartFile file, @RequestParam ObjectType type,
                                              @RequestParam Long objectId, @AuthenticationPrincipal AuthUser authUser) {
         log.debug("upload file {} to folder {}", file.getOriginalFilename(), type.toString().toLowerCase());
-        String path = FileUtil.getPath(type.toString());
+        Path path = Path.of(FileUtil.getPath(type.toString()));
         Attachment attachment = new Attachment(null, path, objectId, type, authUser.id(), file.getOriginalFilename());
         Attachment created = repository.save(attachment);
         String fileName = attachment.id() + "_" + file.getOriginalFilename();

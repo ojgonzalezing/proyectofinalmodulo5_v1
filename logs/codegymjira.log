@@ -40,3 +40,219 @@
 09-11 13:28:16.960 [0-exec-5] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@12fbdd4
 09-11 13:28:16.961 [0-exec-5] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@12fbdd4
 09-11 13:28:26.367 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
+09-11 17:47:14.226 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 21184 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
+09-11 17:47:14.235 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-11 17:47:14.238 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-11 17:47:21.962 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-11 17:47:27.730 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-11 17:47:28.303 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-11 17:47:28.462 [    main] INFO | com.codegym.jira.ref.ReferenceService.initialize:56 init loading
+09-11 17:47:28.747 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-11 17:47:29.769 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: github
+09-11 17:47:29.770 [    main] INFO | com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:157 Deshabilitando proveedor OAuth2: facebook
+09-11 17:47:29.770 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: google
+09-11 17:47:29.771 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: gitlab
+09-11 17:47:29.771 [    main] INFO | com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:161 Proveedores OAuth2 habilitados: [github, google, gitlab]
+09-11 17:47:30.415 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started CodegymJiraApplication in 18.246 seconds (process running for 20.22)
+09-11 18:57:00.489 [sekeeper] WARN | com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m39s600ms20µs100ns).
+09-11 19:22:42.814 [sekeeper] WARN | com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m42s308ms255µs300ns).
+09-11 19:24:22.883 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@4ab00018
+09-11 19:24:22.889 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@4ab00018
+09-11 19:24:23.778 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@4ab00018
+09-11 19:24:23.781 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@4ab00018
+09-11 19:47:35.875 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
+09-11 19:57:39.500 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting CodegymJiraApplication using Java 17.0.16 with PID 4796 (C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1\target\classes started by ojgon in C:\Users\ojgon\OneDrive\Documentos\gitlocal\proyectofinalmodulo5_v1)
+09-11 19:57:39.507 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-11 19:57:39.509 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-11 19:57:45.961 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-11 19:57:50.892 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-11 19:57:51.396 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-11 19:57:51.542 [    main] INFO | com.codegym.jira.ref.ReferenceService.initialize:56 init loading
+09-11 19:57:51.768 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-11 19:57:52.658 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: github
+09-11 19:57:52.658 [    main] INFO | com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:157 Deshabilitando proveedor OAuth2: facebook
+09-11 19:57:52.660 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: google
+09-11 19:57:52.660 [    main] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:155 Manteniendo proveedor OAuth2: gitlab
+09-11 19:57:52.660 [    main] INFO | com.codegym.jira.common.internal.config.SecurityConfig.createFilteredClientRegistrationRepository:161 Proveedores OAuth2 habilitados: [github, google, gitlab]
+09-11 19:57:53.204 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started CodegymJiraApplication in 15.011 seconds (process running for 16.362)
+09-11 19:57:59.146 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:57:59.167 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:00.605 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:00.607 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:15.939 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:16.342 [0-exec-4] DEBUG| com.codegym.jira.common.internal.config.SecurityConfig.lambda$userDetailsService$0:57 Authenticating 'admin@gmail.com'
+09-11 19:58:16.885 [-exec-10] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:58:24.791 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.796 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.798 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.800 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.802 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.804 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.808 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.809 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.811 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.813 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.814 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.816 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:24.818 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:25.093 [0-exec-8] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:58:25.492 [0-exec-5] INFO | com.codegym.jira.common.BaseHandler.getAll:68 get all 
+09-11 19:58:26.580 [0-exec-6] INFO | com.codegym.jira.bugtracking.report.ReportUIController.showReportPage:22 show sprint report page
+09-11 19:58:26.907 [0-exec-9] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:58:27.126 [0-exec-5] INFO | com.codegym.jira.bugtracking.sprint.SprintController.getAllByProjectAndStatus:56 get all finished sprints for project with id=1
+09-11 19:58:29.716 [0-exec-6] INFO | c.codegym.jira.bugtracking.dashboard.DashboardUIController.showDashboard:25 show dashboard
+09-11 19:58:29.722 [0-exec-6] INFO | com.codegym.jira.common.BaseHandler.getAllTos:77 get all TOs
+09-11 19:58:29.754 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+09-11 19:58:29.933 [-exec-10] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:58:30.147 [0-exec-1] INFO | com.codegym.jira.bugtracking.sprint.SprintController.getAllByProjectAndStatus:56 get all active sprints for project with id=1
+09-11 19:58:30.225 [0-exec-9] INFO | com.codegym.jira.bugtracking.task.TaskController.getAllBySprint:52 get all for sprint 1
+09-11 19:58:30.411 [0-exec-7] INFO | com.codegym.jira.bugtracking.task.TaskController.getTaskAssignmentsBySprint:112 get task assignments for user 2 for sprint 1
+09-11 19:58:32.834 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.837 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.837 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.837 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.837 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.837 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.837 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.837 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.841 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.841 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.841 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.841 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.841 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:32.841 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:33.046 [0-exec-4] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:58:33.254 [0-exec-2] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+09-11 19:58:37.516 [0-exec-9] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 1 sprints
+09-11 19:58:43.353 [0-exec-1] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 4 sprints
+09-11 19:58:45.071 [0-exec-6] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 5 tasks
+09-11 19:58:48.210 [0-exec-7] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 124
+09-11 19:58:54.272 [0-exec-4] INFO | com.codegym.jira.bugtracking.report.ReportUIController.showReportPage:22 show sprint report page
+09-11 19:58:54.478 [0-exec-8] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:58:54.682 [-exec-10] INFO | com.codegym.jira.bugtracking.sprint.SprintController.getAllByProjectAndStatus:56 get all finished sprints for project with id=1
+09-11 19:58:56.687 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.688 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.690 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.693 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.695 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.695 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.697 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.697 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.698 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.701 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.701 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.701 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.701 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:58:56.929 [0-exec-1] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:58:57.114 [0-exec-5] INFO | com.codegym.jira.common.BaseHandler.getAll:68 get all 
+09-11 19:59:01.479 [0-exec-7] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:59:01.562 [0-exec-9] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type CONTACT
+09-11 19:59:06.251 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.255 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.258 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.260 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.262 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.264 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.265 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.265 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.269 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.269 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.269 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.269 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.272 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.273 [0-exec-2] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 19:59:06.502 [0-exec-4] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:59:06.767 [0-exec-8] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+09-11 19:59:10.759 [0-exec-7] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 1 sprints
+09-11 19:59:14.769 [0-exec-5] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 1 tasks
+09-11 19:59:17.995 [-exec-10] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 108
+09-11 19:59:20.925 [0-exec-6] INFO | com.codegym.jira.bugtracking.task.TaskUIController.showEditForm:48 show edit form for task 108
+09-11 19:59:20.961 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK
+09-11 19:59:20.962 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+09-11 19:59:20.966 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type PRIORITY
+09-11 19:59:21.250 [0-exec-2] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 19:59:21.262 [0-exec-5] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+09-11 19:59:21.337 [0-exec-1] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+09-11 19:59:21.383 [0-exec-9] WARN | org.springframework.web.servlet.DispatcherServlet.noHandlerFound:1291 No mapping for GET /favicon.ico
+09-11 19:59:21.388 [0-exec-9] WARN | o.s.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException:427 No endpoint GET /favicon.ico.
+09-11 19:59:21.390 [0-exec-9] WARN | o.s.web.servlet.handler.AbstractHandlerExceptionResolver.logException:207 Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+09-11 19:59:21.398 [0-exec-9] ERROR| com.codegym.jira.common.internal.web.BasicExceptionHandler.processException:73 ERR# Exception org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico. at request /favicon.ico
+09-11 20:00:26.018 [0-exec-2] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 108
+09-11 20:00:26.534 [0-exec-1] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:00:29.507 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.509 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.512 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.512 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.512 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.512 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.514 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.514 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.514 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.517 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.518 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.520 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.521 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.522 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:00:29.777 [0-exec-1] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:00:30.164 [0-exec-6] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+09-11 20:00:31.961 [0-exec-8] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 1 sprints
+09-11 20:00:33.496 [0-exec-2] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 1 tasks
+09-11 20:00:37.554 [0-exec-1] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 108
+09-11 20:00:39.834 [0-exec-4] INFO | com.codegym.jira.bugtracking.task.TaskUIController.showEditForm:48 show edit form for task 108
+09-11 20:00:39.874 [0-exec-4] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK
+09-11 20:00:39.875 [0-exec-4] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+09-11 20:00:39.875 [0-exec-4] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type PRIORITY
+09-11 20:00:40.083 [0-exec-9] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:00:40.104 [0-exec-1] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+09-11 20:00:40.201 [0-exec-3] WARN | org.springframework.web.servlet.DispatcherServlet.noHandlerFound:1291 No mapping for GET /favicon.ico
+09-11 20:00:40.203 [0-exec-3] WARN | o.s.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException:427 No endpoint GET /favicon.ico.
+09-11 20:00:40.203 [0-exec-3] WARN | o.s.web.servlet.handler.AbstractHandlerExceptionResolver.logException:207 Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+09-11 20:00:40.208 [0-exec-3] ERROR| com.codegym.jira.common.internal.web.BasicExceptionHandler.processException:73 ERR# Exception org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico. at request /favicon.ico
+09-11 20:01:55.469 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK
+09-11 20:01:55.472 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+09-11 20:01:55.472 [0-exec-6] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type PRIORITY
+09-11 20:01:56.006 [0-exec-5] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:01:56.020 [0-exec-7] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+09-11 20:01:56.126 [0-exec-2] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+09-11 20:02:16.975 [-exec-10] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 108
+09-11 20:02:17.274 [0-exec-5] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:02:19.398 [0-exec-9] INFO | com.codegym.jira.bugtracking.task.TaskUIController.showEditForm:48 show edit form for task 108
+09-11 20:02:19.428 [0-exec-9] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK
+09-11 20:02:19.430 [0-exec-9] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+09-11 20:02:19.430 [0-exec-9] DEBUG| com.codegym.jira.ref.ReferenceService.getRefs:30 get by type PRIORITY
+09-11 20:02:19.671 [0-exec-6] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:02:19.680 [0-exec-4] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+09-11 20:02:19.750 [0-exec-9] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+09-11 20:02:19.782 [0-exec-3] WARN | org.springframework.web.servlet.DispatcherServlet.noHandlerFound:1291 No mapping for GET /favicon.ico
+09-11 20:02:19.782 [0-exec-3] WARN | o.s.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException:427 No endpoint GET /favicon.ico.
+09-11 20:02:19.784 [0-exec-3] WARN | o.s.web.servlet.handler.AbstractHandlerExceptionResolver.logException:207 Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+09-11 20:02:19.789 [0-exec-3] ERROR| com.codegym.jira.common.internal.web.BasicExceptionHandler.processException:73 ERR# Exception org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico. at request /favicon.ico
+09-11 20:02:30.015 [0-exec-7] DEBUG| c.codegym.jira.bugtracking.attachment.AttachmentController.upload:33 upload file UploadTestFile.txt to folder task
+09-11 20:02:30.249 [0-exec-5] INFO | c.codegym.jira.bugtracking.attachment.AttachmentController.getAllForObject:64 get all attachment by objectId = 108
+09-11 20:02:44.540 [0-exec-8] INFO | com.codegym.jira.bugtracking.task.TaskUIController.createOrUpdate:100 update TaskToExt:108[task-108],true with id=108
+09-11 20:02:44.692 [0-exec-8] INFO | com.codegym.jira.common.BaseHandler.updateFromTo:114 updateFromTo TaskToExt:108[task-108],true with id=108
+09-11 20:02:44.738 [0-exec-8] INFO | com.codegym.jira.common.BaseHandler.create:90 create Activity:null
+09-11 20:02:44.891 [0-exec-6] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 108
+09-11 20:02:45.364 [0-exec-9] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:03:44.266 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.269 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.269 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.270 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:03:44.496 [0-exec-9] ERROR| com.codegym.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+09-11 20:03:44.744 [0-exec-1] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+09-11 20:03:51.509 [0-exec-7] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 1 sprints
+09-11 20:03:53.113 [0-exec-3] INFO | com.codegym.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 1 tasks
+09-11 20:03:56.733 [0-exec-4] INFO | com.codegym.jira.bugtracking.task.TaskUIController.get:38 get 108
+09-11 20:04:02.627 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:04:02.630 [0-exec-6] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3d44f8e5
+09-11 20:05:00.284 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'

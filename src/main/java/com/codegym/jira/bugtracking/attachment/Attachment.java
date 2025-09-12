@@ -9,6 +9,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.nio.file.Path;
 import java.time.LocalDateTime;
 
 @Entity
@@ -35,7 +36,7 @@ public class Attachment extends NamedEntity {
     @NotNull
     private Long userId;
 
-    public Attachment(Long id, String fileLink, Long objectId, ObjectType objectType, Long userId, String name) {
+    public Attachment(Long id, Path fileLink, Long objectId, ObjectType objectType, Long userId, String name) {
         super(id, name);
         this.fileLink = fileLink;
         this.objectId = objectId;

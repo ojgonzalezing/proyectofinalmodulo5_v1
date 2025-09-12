@@ -21,7 +21,7 @@ public class AttachmentMapperImpl implements AttachmentMapper {
             return null;
         }
 
-        Attachment attachment = new Attachment();
+        Attachment attachment = new Attachment(null, path, objectId, type, authUser.id(), file.getOriginalFilename());
 
         attachment.setId( to.getId() );
         attachment.setName( to.getName() );
